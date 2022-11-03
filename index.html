@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>MultTable</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <p>
+        <h1> MULTIPLICATION    TABLE</h1>
+    </p>
+
+    <!-- FORM -->
+    <!-- Y = col, X = row -->
+    <form onsubmit="createtable()">
+        <label>MinX<br></label><input type="text" id="minX"><br>
+        <label>MaxX<br></label><input type="text" id="maxX"><br>
+        <label>MinY<br></label><input type="text" id="minY"><br>
+        <label>MaxY<br></label><input type="text" id="maxY"><br>
+        <input type="submit" value="Calculate">
+    </form>
+
+    <p>
+        <div id="Instructions">
+
+        </div>
+    </p>
+<div class = "scroll">
+<div id = "multtable"></div>
+</div>
+
+    <script src="js.js"></script>
+</body>
+
+
+
+</html>
